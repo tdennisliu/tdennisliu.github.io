@@ -1,3 +1,9 @@
 theme: jekyll-theme-tactile
 title: Welcome to tdennisliu's homepage!
 description: This is where I'll be listing what I'm up to, notebook tutorials on concepts I've taught myself, and more!
+
+owner:
+  name: Dennis Liu
+  avatar: DLprofile.png
+  email: tdennisliu@gmail.com
+  twitter: tdennisliu
