@@ -1,4 +1,5 @@
 # About Me
+![alt text](/DLprofile.png "Photo of Dennis Liu")
 
 I am a PhD student at the University of Adelaide under the supervision of Joshua Ross and Lewis Mitchell in the School of Mathematical Sciences. 
 
