@@ -1,4 +1,4 @@
-# About Me
+## About Me
 <img src="DLprofile.png" alt="Photo of Dennis Liu"
   title="Dennis Liu" width="191" height="268" />
 
