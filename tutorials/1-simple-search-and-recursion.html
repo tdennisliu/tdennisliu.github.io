@@ -13915,7 +13915,8 @@ ______
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Towers-of-Hanoi">Towers of Hanoi<a class="anchor-link" href="#Towers-of-Hanoi">&#182;</a></h2><p>This appears to be the culmination on the lesson of recursion. Here, we can solve <a href="https://en.wikipedia.org/wiki/Tower_of_Hanoi">Tower of Hanoi</a> problem using recursion!</p>
+<h2 id="Towers-of-Hanoi">Towers of Hanoi<a class="anchor-link" href="#Towers-of-Hanoi">&#182;</a></h2><p><a id="Towers-of-Hanoi"> </a>
+This appears to be the culmination on the lesson of recursion. Here, we can solve <a href="https://en.wikipedia.org/wiki/Tower_of_Hanoi">Tower of Hanoi</a> problem using recursion!</p>
 <p>Without going to the full explanation here, they use the lessons learnt from earlier examples to build their recursive model to show it is indeed solvable, for any size $n$!</p>
 <p>Their thoughts are simply:</p>
 <ol>
@@ -13948,7 +13949,7 @@ ______
 <span class="sd">    startpeg: str key of disk where disks are intially placed</span>
 <span class="sd">    </span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">pegs</span><span class="p">,</span> <span class="n">num_disks</span><span class="p">,</span> <span class="n">startpeg</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">pegs</span><span class="p">,</span> <span class="n">num_disks</span><span class="p">,</span> <span class="n">startpeg</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">towers</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">pegs</span> <span class="o">=</span> <span class="n">pegs</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">num_disks</span> <span class="o">=</span> <span class="n">num_disks</span>
@@ -14057,7 +14058,7 @@ Illegal move, disk 2 is bigger than top disk ( 1 ) on peg b
 <span class="sd">    startpeg: str key of disk where disks are intially placed</span>
 <span class="sd">    </span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">pegs</span><span class="p">,</span> <span class="n">num_disks</span><span class="p">,</span> <span class="n">startpeg</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">pegs</span><span class="p">,</span> <span class="n">num_disks</span><span class="p">,</span> <span class="n">startpeg</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">towers</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">pegs</span> <span class="o">=</span> <span class="n">pegs</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">num_disks</span> <span class="o">=</span> <span class="n">num_disks</span>
