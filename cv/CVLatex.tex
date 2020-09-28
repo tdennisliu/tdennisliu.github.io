@@ -1,8 +1,8 @@
 \documentclass{article}
 \usepackage{parskip} %gives 1.5 spacing
-\usepackage{graphicx,rotating}
+\usepackage{graphicx,rotating,multicol}
 \usepackage[colorlinks=true,urlcolor=blue,linkcolor=.]{hyperref}
-\usepackage[scale=0.75]{geometry} %adjust page margins
+\usepackage[margin=2.5cm]{geometry} %adjust page margins
 
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \begin{document}
@@ -28,24 +28,65 @@ Australian, engineer, data scientist
 
 \HRule
 
-{\footnotesize EDUCATION}
-\\
+\begin{multicols}{2}
 
-\textbf{\large University of Adelaide} 
+\textbf{\emph{Education}}
 
-\emph{Ph.D candidate: Mathematics (Statistics)} \hfill \texttt{2017 to present}\\[0.2cm]
-{\emph{Data to Decisions CRC Big Data Scholarship}}\\
+\textbf{ The University of Adelaide} 
 
-My research focuses on building frameworks to model social behaviours and infectious diseases using digital, non-traditional datasets. I am interested in analysing human behaviours and analysing their effects on models and forecasts of public health measures. I have recently been working with a wider group of researchers to provide forecasts of COVID-19 cases to the Australian Government and Department of Health. I am proficient in Python and standard quantitative packages (numpy, pandas, sklearn etc.), and have some familiarity with R and Matlab.
+\emph{Ph.D candidate: Mathematics (Statistics)}\\
+ \texttt{2017 to present}
 \hypersetup{urlcolor=black}
-Key skills involved are:
-
 \begin{itemize}
-	\item Utilising Bayesian inference and statistical learning,
+	\item Utilising Bayesian statistical learning,
+	\item Proficiency in Python and standard quantitative packages (numpy, pandas, sklearn etc.),
 	\item Developing novel models and construct appropriate learning algorithms to infer parameters,
-	\item Understanding, learning and applying solutions to complex problems,
-	\item Applying object-orientated programming to improve interpretability of code. Click \href{https://tdennisliu.github.io/tutorials/1-simple-search-and-recursion.html#Towers-of-Hanoi}{here for more}.
+	\item Applying object-orientated programming to improve interpretability. Click \href{https://tdennisliu.github.io/tutorials/1-simple-search-and-recursion.html#Towers-of-Hanoi}{here for more}.
 \end{itemize}
+
+
+%\textbf{\large Pulteney Grammar School} 
+
+%\emph{SACE}\hfill \texttt{2004 to 2008}
+%{\footnotesize
+%\begin{itemize}
+%\item Merits in Chemistry, Mathematical Studies and Specialist Mathematics
+%\item TER of 99.85
+%\item EE Scarfe Memorial Prize for Specialist Mathematics
+%\item Participant in Australian Intermediate Mathematics Olympiad 
+
+%\end{itemize}
+%}
+
+\textbf{\emph{Awards \& Achievements}}
+
+\centering
+\begin{tabular}{ p{6.75cm} p{0.25cm} }
+Invited speaker to WHO Pacific Region COVID-19 Science and Research Seminar & \texttt{2020} \\
+ARC Centre of Excellence for Mathematical and Statistical Frontiers Public Lecture & \texttt{2019}\\
+Data to Decisions CRC {Big Data Scholarship} &  \texttt{2017} \\
+Dean's Merit Certificate for Outstanding Academic Achievement & \texttt{2009- 2012} \\
+
+Max \& Bette Mendelson Foundation Scholarship & \texttt{2010}\\
+South Australian Principal's Scholarship & \texttt{2009} \\
+Australian Student Prize & \texttt{2009} \\
+\end{tabular}
+\end{multicols}
+
+
+My research focuses on building frameworks to model social behaviours and infectious diseases using digital, non-traditional datasets. I am interested in analysing human behaviours and analysing their effects on models and forecasts of public health measures. \\
+
+\emph{B. Ma. Comp. Sci (Applied)} \hfill  \texttt{2011- 2015}
+
+%{\footnotesize
+%\begin{itemize}
+%\item Overloaded course work 2011 to 2012, studied part time while working full time 2014 to 2015
+%\end{itemize} }
+
+\emph{B. Eng. (Chemical) with First Class Honours} \hfill \texttt{2009- 2013}
+
+\\
+\HRule
 
 \textbf{\emph{Publications \& Conferences}}
 \begin{table}[h!] \small
@@ -61,35 +102,11 @@ Key skills involved are:
  Predicting influenza testing associated with family doctors by using a web-based surveillance system. & & \texttt{Acceptance pending} \\
 
  \href{https://chdsummerschool.com/}{Complex Human Data Summer School} & & \texttt{2018} \\
- Policy Relevant Infectious Disease Simulation and Mathematical Modelling& & \texttt{2018} \\
 
 \end{tabular}
 \end{table}
 
 
-\emph{B. Ma. Comp. Sci (Applied)} \hfill  \texttt{2011 to 2015}
-
-{\footnotesize
-\begin{itemize}
-\item Overloaded course work 2011 to 2012, studied part time while working full time 2014 to 2015
-\end{itemize} }
-
-\emph{B. Eng. (Chemical) with First Class Honours} \hfill \texttt{2009 to 2013}
-\emph{Dean's Merit Certificate for Outstanding Academic Achievement} \hfill \texttt{2009 to 2012}
-\\
-
-%\textbf{\large Pulteney Grammar School} 
-
-%\emph{SACE}\hfill \texttt{2004 to 2008}
-%{\footnotesize
-%\begin{itemize}
-%\item Merits in Chemistry, Mathematical Studies and Specialist Mathematics
-%\item TER of 99.85
-%\item EE Scarfe Memorial Prize for Specialist Mathematics
-%\item Participant in Australian Intermediate Mathematics Olympiad 
-
-%\end{itemize}
-%}
 
 \HRule
 
@@ -101,7 +118,7 @@ Key skills involved are:
 \emph{Unit Controller Engineer} \hfill \texttt{2015 to 2017}
 
 {\footnotesize
-My previous employment required me to work in a remote location in a gas plant control room, where gas production from over 600 wells and multiple facilities is fed to the plant through compressors controlled by myself, to be processed all hours of the day.
+My previous employment required me to work in a remote location in a gas plant control room, where gas production is to be processed all hours of the day.
 
 \begin{itemize}
 \item Communicate issues with other stakeholders clearly and concisely
@@ -120,7 +137,7 @@ As a facilities engineer, I was responsible for various facility assets producin
 \end{itemize} }
 
 
-\textbf{\large Globe Education Centre}
+\textbf{Globe Education Centre}
 
 \emph{Mathematics and Science Tutor} \hfill \texttt{2009 to 2014}
 {\footnotesize
@@ -134,10 +151,9 @@ As a facilities engineer, I was responsible for various facility assets producin
 {\footnotesize KEY STRENGTHS}
 
 \begin{itemize}
-\item Clear communication skills in time constrained environments
-\item Programming experience in Excel VBA, Matlab and Python
-\item Project management
-\item Experienced in working collaboratively and critical decision making
+\item Clear communication skills in time constrained environments,
+\item Project management,
+\item Collaborative working.
 \end{itemize}
 
 \HRule
@@ -157,7 +173,7 @@ Email: & lewis.mitchell@adelaide.edu.au \\[1cm]
 
 \textbf{\large Glenn Lydyard} & \\[0.3cm]
 Organisation: & Santos Ltd. \\
-Position: & Team Leader Advanced Analytics \& Production Technologies \\
+Position: & Manager Operations Technology (Digital)\\
 Email: & glenn.lydyard@santos.com \\[1cm]
 
 \textbf{\large Sungkook Kwon} & \\[0.3cm]
