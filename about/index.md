@@ -1,5 +1,5 @@
 ## About Me
-<img src="DLprofile2.png" alt="Photo of Dennis Liu"
+<img src="DLprofile2.jpg" alt="Photo of Dennis Liu"
   title="Dennis Liu" width="191" height="268" />
 
 I am a currently working as a Data Scientist at [Hatch](https://hatch.team) where we are building a future where everyone can finding meaning in work, and to level the playing field in employment. I love reading about data science, systems design, meaningful insights and learning algorithms.
